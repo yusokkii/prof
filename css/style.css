@@ -1,0 +1,266 @@
+body, html {
+
+    padding-top: 0px;
+}
+section{
+    background-color:  #dfddda; /* фоновий колір */
+    color: #333; /* колір тексту */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    padding: 40px 0; /* Відступи зверху та знизу */
+    text-align: center;
+}
+
+.header .container {
+    max-width: 600px; /* Зменшення максимальної ширини контейнера */
+    margin: 0 auto;/* Вирівнювання по центру */
+}
+
+.header .box {
+    padding: 30px;
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
+    background-color: #dceafc; /* Білий фон */
+}
+
+.header h1 {
+    font-size: 2.5rem; /* Розмір шрифту заголовка */
+    margin-bottom: 20px; /* Відступ знизу */
+    color: #343a40; /* Темний колір тексту */
+}
+
+.header p {
+    font-size: 1.2rem; /* Розмір шрифту тексту */
+    margin-bottom: 20px; /* Відступ знизу */
+    color: #6c757d; /* Сірий колір тексту */
+    line-height: 1.6; /* Висота рядка */
+}
+
+.header .profile-img {
+    width: 300px; /* Ширина зображення */
+    height: 300px; /* Висота зображення */
+    border-radius: 30%; /* Кругле зображення */
+    object-fit: cover; /* Збереження пропорцій зображення */
+}
+
+/* Стилі для мобільних пристроїв */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem; /* Менший розмір шрифту на мобільних пристроях */
+    }
+
+    .header p {
+        font-size: 1rem; /* Менший розмір шрифту на мобільних пристроях */
+    }
+
+    .header .profile-img {
+        width: 120px; /* Менший розмір зображення на мобільних пристроях */
+        height: 120px; /* Менший розмір зображення на мобільних пристроях */
+    }
+}
+
+.header {
+    background-image: url(n.jpg);
+    background-size: cover; /* Розмір фону */
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 60px 0px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 25px;
+}
+
+.content {
+    font-family: Lato;
+    padding: 30px 0;
+}
+
+.footer {
+    font-family: Lato;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-item .nav-link {
+    font-family: Lato;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #b1a6a0;
+    padding: 10px 20px; /* Adds padding inside each button */
+    margin: 5px; /* Adds margin around each button */
+    border-radius: 5px; /* Optional: Adds rounded corners to each button */
+    text-decoration: none; /* Removes underline from the links */
+}
+
+.nav-item .nav-link:hover {
+    color: #ffffff; /* Change text color on hover */
+    background-color: #72625a; /* Optional: Change background color on hover */
+}
+
+.nav-bar {
+    background-color: #eaf4f8;
+}
+
+
+
+.left-column {
+    font-family: Lato;
+    font-size: 50px;
+    text-align: left;
+    width: calc(50% - 20px); /* Вирахувати ширину з урахуванням padding-right */
+    box-sizing: border-box;
+}
+
+.about-table {
+    font-family: Lato;
+    font-size: 20px;/* Вирахувати ширину з урахуванням padding-left */
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+
+
+.criteria-columns {
+    font-family: Lato;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    margin: 0 100px; /* додайте бажаний відступ, якщо потрібно */
+}
+
+.criteria-list {
+    list-style: none; /* Вимкнути маркери списку */
+    padding: 0; /* Вимкнути відступи */
+}
+
+.criteria-list li {
+    margin-bottom: 1px; /* Відступ між критеріями */
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 30px; /* Відступ після заголовку */
+}
+
+h3 {
+    font-size: 30px; /* Розмір підзаголовку */
+    margin-bottom: 40px; /* Відступ після підзаголовку */
+}
+
+p {
+    margin: 0; /* Видалити зовнішні відступи для абзаців */
+}
+/* Контейнер контактної інформації */
+#contact {
+    padding: 40px 20px; /* Відступи навколо контейнера */
+    border-radius: 10px; /* Закруглені кути */
+    margin-top: 20px; /* Відступ зверху */
+}
+
+/* Секція заголовка */
+#contact h2 {
+    font-family: Lato;
+    font-size: 2em;
+    margin-bottom: 20px; /* Відступ після заголовка */
+    color: #333; /* Колір заголовка */
+    text-align: center; /* Вирівнювання заголовка по центру */
+}
+
+/* Список контактної інформації */
+#contact ul {
+    list-style-type: none; /* Вимкнути маркери списку */
+    padding: 0; /* Вимкнути відступи */
+    font-family: Lato;
+    font-size: 1.2em;
+    color: #555; /* Колір тексту */
+    text-align: center; /* Вирівнювання тексту по центру */
+}
+
+/* Пункти списку */
+#contact ul li {
+    margin-bottom: 10px; /* Відступ між пунктами */
+}
+
+/* Посилання */
+#contact ul li a {
+    color: #007bff; /* Колір посилань */
+    text-decoration: none; /* Видалити підкреслення */
+    transition: color 0.3s; /* Анімація зміни кольору */
+}
+
+/* Посилання при наведенні */
+#contact ul li a:hover {
+    color: #0056b3; /* Зміна кольору при наведенні */
+}
+
+/* Підкреслення при фокусуванні (для доступності) */
+#contact ul li a:focus {
+    outline: 2px solid #0056b3; /* Підкреслення при фокусуванні */
+    outline-offset: 2px; /* Відступ підкреслення */
+}
+
+
+/* Контейнер секції проектів */
+#projects {
+    font-family: Lato;
+    padding: 40px 20px; /* Відступи навколо контейнера */
+    border-radius: 10px; /* Закруглені кути */
+    margin-top: 20px; /* Відступ зверху */
+    background-size: cover; /* Розмір фону */
+    background-position: center; /* Позиція фону */
+}
+
+/* Заголовок секції проектів */
+#projects h2 {
+    font-family: Lato;
+    font-size: 40px;
+    margin-bottom: 20px; /* Відступ після заголовка */
+    color: #333; /* Колір заголовка */
+    text-align: center; /* Вирівнювання заголовка по центру */
+}
+
+/* Абзац під заголовком */
+#projects p {
+    font-family: Lato;
+    font-size: 25px;
+    color: #555; /* Колір тексту */
+    text-align: center; /* Вирівнювання тексту по центру */
+    margin-bottom: 30px; /* Відступ після абзацу */
+}
+
+/* Галерея проектів */
+.projects-gallery {
+    display: flex;
+    overflow-x: auto; /* Додана горизонтальна прокрутка */
+    gap: 20px;
+    justify-content: flex-start; /* Змінено justify-content */
+    margin-top: 20px;
+    padding: 0 10px; /* Додатковий відступ для більш естетичного вигляду */
+    -webkit-overflow-scrolling: touch; /* Додаткові стилі для плавної прокрутки на мобільних пристроях */
+}
+
+.projects-gallery img {
+    width: 50%;
+    max-width: 350px; /* Максимальна ширина */
+    height: auto; /* Автоматичне регулювання висоти для збереження пропорцій */
+    border-radius: 10px;
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+    .projects-gallery {
+        gap: 5px;
+    }
+
+    .projects-gallery img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+}
